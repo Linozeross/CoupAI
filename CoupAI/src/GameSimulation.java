@@ -1,24 +1,29 @@
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
+import java.util.Stack;
+import java.util.concurrent.ThreadLocalRandom;
+
 
 public class GameSimulation {
-
-	
 	
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		GameState state = new GameState();
 		Scanner sc = new Scanner(System.in);
-		Player p1 = new Player(1)
 		
 				
 		//give players cards
+		//implemented randomly for now TODO: make it according to two player rules.
+				
 		//give players money
 		
 		
 		//while game not over
 		
-		Player currentPlayer = p1;
+		
 		//currentPlayer  turn
 		System.out.println("What is your action)");
 		
