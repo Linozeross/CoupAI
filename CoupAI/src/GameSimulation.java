@@ -2,17 +2,23 @@ import java.util.Scanner;
 
 public class GameSimulation {
 
+	
+	
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
+		Player p1 = new Player(1)
 		
+				
 		//give players cards
 		//give players money
 		
 		
 		//while game not over
 		
-		
+		Player currentPlayer = p1;
 		//currentPlayer  turn
 		System.out.println("What is your action)");
 		
